@@ -207,7 +207,7 @@ bond_graph = get_bond_graph(geom)
 
 # calculate bond lengths and bond angles
 bonds = get_bonds(geom, bond_graph)
-angles = get_angles(geom, bond_graph)
+angles = get_angles(geom, bond_graph) 
 
 # print resulting values
 print_geom(geom, 'initial geometry')
