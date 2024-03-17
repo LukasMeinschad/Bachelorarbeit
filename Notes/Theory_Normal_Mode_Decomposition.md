@@ -83,3 +83,31 @@ Die Umwandlung zwischen interne Koordinaten und normalen Koordinaten geht über
 
 $R = DQ$
 
+> Fazit man kann die Anteile an potentieller Energie und kinetischer Energie in einzelne Anteile einer Mode aufsplitten
+
+$V^i = \frac{1}{2}Q_i^ \sum_i \sum_n D_{ni}D_{mi}F_{mn}$
+
+$T^i =  \frac{1}{2}Q_i^2 \sum_m \sum_n D_{ni}D_{mi}(G^{-1})_{mn}$
+
+Das sind dann die Einträge der PED und KED Matrix
+
+### Vibrational Energy Distribution Matrix
+
+Man kann also die Energyverteilung vereinfachen um nicht drei Matrizen für eine Mode zu bekommen.
+
+Ein Weg ist alle Elemente aufzusummieren. Die Matrizen 35-37 sind numerisch ident und können berechnet werden durch
+
+$P_m^i = T_m^i = E_m^i = D_{ik}(D^{-1})k_i$
+
+In der VED Matrix sind die Spalten die Normalmoden und die Zeilen die Internen Koordinaten, jedoch kann man einzelne Anteile nicht mehr Nachmessen.
+
+### Intristiscche Vibrational Frequencies
+
+Diese wird durch die Kontribution aller Normalmoden zu einer internen Koordinate beschrieben
+
+$v_n = \sum_n \sum_i P^i_{mn} \lambda_i$
+
+
+$v_n = \sum_n \sum_i = \frac{D_{mi}F_{mn}D_{ni}}{\lambda_i}\lambda_i = \sum_m \sum_i D_{mi}F_{mn}D_{ni}$
+
+
