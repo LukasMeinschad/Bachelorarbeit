@@ -1,0 +1,36 @@
+***,water dimer
+ memory, 600, m
+ gthresh,optgrad=1.d-7,twoint=1.d-14,prefac=1.d-16
+ orient,mass
+ geometry={
+ H1
+ O1,H1,r1
+ H2,O1,r2,H1,phi
+ O2,H2,d1,O1,theta,H1,omega
+ H3,O2,r3,H1,phi1,H2,theta1
+ H4,O2,r4,H2,phi2,H1,theta2
+ }
+ 
+ r1=0.9656 ANG
+ r2=0.9724 ANG
+ phi=104.27 DEGREE
+ d1=1.9601 ANG
+ r3=0.9671 ANG
+ r4=r3
+ theta=phi
+ phi1=110.44 DEGREE
+ phi2=phi1
+ omega=180.0 DEGREE
+ theta1=57.40 DEGREE
+ theta2=-theta1
+ 
+ mass,iso
+ basis=6-311g(d,p)
+ 
+ {hf
+ start,atden}
+ 
+ 
+ optg
+ {frequencies, symm=auto, print=0,analytical}
+ put,molden, h2o_dimer.molden
