@@ -20,7 +20,7 @@ bonds: [('H1', 'O2'), ('O1', 'H2'), ('O2', 'H3'), ('O2', 'H4'), ('O2', 'H2')]
 in-plane angles: [('H1', 'O2', 'H3'), ('H1', 'O2', 'H4'), ('H3', 'O2', 'H4'), ('O1', 'H2', 'O2')]
 linear valence-angles: []
 out-of-plane angles: []
-dihedrals: [('H4', 'O2', 'H2', 'O1'), ('H3', 'O2', 'H2', 'O1'), ('O1', 'H2', 'O2', 'H3'), ('O1', 'H2', 'O2', 'H4')]
+dihedrals: [('O1', 'H2', 'O2', 'H3'), ('O1', 'H2', 'O2', 'H4'), ('H3', 'O2', 'H2', 'O1'), ('H4', 'O2', 'H2', 'O1')]
 
 
 
